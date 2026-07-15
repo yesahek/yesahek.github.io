@@ -1,9 +1,9 @@
 export const profile = {
     name: "Yesahek Haile",
-    title: "Software Engineer | Cloud & AI/ML Developer",
+    title: "Software Engineer | Cloud & AI Developer",
     tagline: "Building cloud-native applications with Flutter, AWS, Firebase, and Generative AI.",
     location: "Ethiopia",
-    bio: "I'm a software engineer from Ethiopia currently pursuing a Master of Science in Software Engineering. My interests include cloud computing, backend engineering, mobile development, and Generative AI. I enjoy building practical software solutions that solve real-world problems and sharing technical knowledge with the developer community.",
+    bio: "I am a software engineer and Master's student in Software Engineering at Quantic School of Business and Technology. I enjoy building practical software solutions using cloud technologies, backend engineering, mobile development, and Generative AI.My experience includes developing Flutter applications, backend APIs, and cloud-based systems using Firebase and AWS. Through academic projects, professional experience, volunteer work, and personal projects, I have focused on solving real-world problems with technology. I am currently expanding my expertise in AWS cloud architecture, serverless development, microservices, and Retrieval-Augmented Generation (RAG) using Amazon Bedrock. My long-term goal is to build intelligent, scalable applications that create meaningful impact for businesses and communities.",
     links: {
     resume: "", // 
     github: "https://github.com/yesahek",
