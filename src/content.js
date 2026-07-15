@@ -59,6 +59,29 @@ export const projects = [
     githubUrl: "", // TODO
     demoUrl: "",
   },
+  {
+    id: "malware-detection-system",
+    featured: false,
+    title: "Malware Detection System",
+    summary: "Binary classification pipeline that detects malware from static PE file features, achieving 98%+ accuracy on a 50,000-sample dataset.",
+    problem: "Distinguishing malicious from benign executables using only static file features, without executing the file.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "Random Forest", "XGBoost"],
+    screenshots: [],
+    githubUrl: "",
+    demoUrl: "",
+    note: "MSSE academic project; code available on request due to academic restrictions.",
+  },
+  {
+    id: "scholarship-recommendation-platform",
+    featured: false,
+    title: "Scholarship Recommendation Platform",
+    summary: "End-to-end recommendation system matching students to scholarships using TF-IDF vectorization and cosine similarity, deployed as an interactive Streamlit app.",
+    problem: "Helping students find scholarships that match their academic profile, field of study, and eligibility criteria.",
+    technologies: ["Python", "Scikit-learn", "Streamlit", "Pandas"],
+    screenshots: [],
+    githubUrl: "https://github.com/yesahek/Scholarship-Recommendation-Platform",
+    demoUrl: "",
+  },
 ];
 
 export const experience = [
@@ -141,6 +164,46 @@ export const certifications = [
     badgeUrl: "", // TODO
     credentialUrl: "", // TODO
   },
+  {
+    id: "llm-based-apps",
+    title: "LLM Based Apps",
+    issuer: "Quantic School of Business and Technology",
+    date: "Jun 2026",
+    badgeUrl: "",
+    credentialUrl: "",
+  },
+  {
+    id: "intro-to-ml",
+    title: "Introduction to Machine Learning",
+    issuer: "Quantic School of Business and Technology",
+    date: "Jun 2025",
+    badgeUrl: "",
+    credentialUrl: "",
+  },
+  {
+    id: "genai-essentials",
+    title: "GenAI Essentials for Everyone",
+    issuer: "O'Reilly Media",
+    date: "Oct 2024",
+    badgeUrl: "",
+    credentialUrl: "https://www.credly.com/badges/0f0a26cb-7d62-4b4b-a78e-03943f1b668d/public_url",
+  },
+  {
+    id: "nodejs-api-masterclass",
+    title: "Node.js API Masterclass",
+    issuer: "O'Reilly Media",
+    date: "Nov 2024",
+    badgeUrl: "",
+    credentialUrl: "https://www.credly.com/badges/0c691170-3ba3-4bed-92f2-01485e840c12/public_url",
+  },
+  {
+    id: "agile-scrum",
+    title: "CSM and Agile Scrum Course",
+    issuer: "O'Reilly Media",
+    date: "Mar 2025",
+    badgeUrl: "",
+    credentialUrl: "https://www.credly.com/badges/5161b243-306b-4cfd-a13a-cb5a4ceb5c12/public_url",
+  },
 ];
 
 export const skills = {
@@ -149,6 +212,7 @@ export const skills = {
   Frontend: ["Flutter", "Dart"],
   AI: ["Amazon Bedrock", "RAG", "Vector Search", "Prompt Engineering"],
   DevOps: ["Git", "GitHub Actions", "Docker"],
+  Languages: ["Python", "SQL", "Java", "JavaScript", "Dart"],
 };
 
 export const community = [
