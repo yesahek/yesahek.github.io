@@ -5,10 +5,10 @@ export const profile = {
     location: "Ethiopia",
     bio: "I am a software engineer and Master's student in Software Engineering at Quantic School of Business and Technology. I enjoy building practical software solutions using cloud technologies, backend engineering, mobile development, and Generative AI.My experience includes developing Flutter applications, backend APIs, and cloud-based systems using Firebase and AWS. Through academic projects, professional experience, volunteer work, and personal projects, I have focused on solving real-world problems with technology. I am currently expanding my expertise in AWS cloud architecture, serverless development, microservices, and Retrieval-Augmented Generation (RAG) using Amazon Bedrock. My long-term goal is to build intelligent, scalable applications that create meaningful impact for businesses and communities.",
     links: {
-    resume: "", // 
+    resume: "https://drive.google.com/file/d/12iLyep1LgSyLYd33ELtVmPy5yxnaACtC/view?usp=sharing", // 
     github: "https://github.com/yesahek",
-    linkedin: "https://linkedin.com/yesahek", // TODO: your LinkedIn profile URL
-    email: "yesahek@gmail.com", // TODO: your co
+    linkedin: "https://linkedin.com/in/yesahek", 
+    email: "yesahek@gmail.com", 
     },
 }
 
@@ -30,11 +30,11 @@ export const projects = [
     id: "education-supplementary-app",
     featured: false,
     title: "Education Supplementary App",
-    summary: "", // TODO
-    problem: "", // TODO
+    summary: "Developed as my B.Sc. Computer Science capstone project, the Education Supplementary App (ESA) is a Flutter and Firebase-powered mobile application that provides students with convenient access to learning resources through a secure, cloud-based platform. The project demonstrates cross-platform mobile development, cloud integration, and user-centered application design.", 
+    problem: "Students often struggle to access and organize supplementary learning materials because resources are scattered across multiple platforms and are not always easily available when needed. The Education Supplementary App (ESA) was developed to provide a centralized mobile platform where students can access educational resources conveniently and improve their learning experience.", 
     technologies: ["Flutter", "Firebase"],
-    screenshots: [],
-    githubUrl: "", // TODO
+    screenshots: ["https://drive.google.com/file/d/1PmbpOel36RpwJqDLyGmPyvS8TT1Z47sZ/view?usp=sharing","https://drive.google.com/file/d/1yx-04Cwi9DmlRHd_6AoAPqvZYWuK249D/view?usp=sharing","https://drive.google.com/file/d/1r3LkuK2TqYlZCF3FYKvy4wJPe9fin0_9/view?usp=sharing"],
+    githubUrl: "https://github.com/yesahek/ESA_Project", 
     demoUrl: "",
   },
   {
