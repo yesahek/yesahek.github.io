@@ -108,6 +108,14 @@ export const education = [
     startDate: "", // TODO
     endDate: "", // TODO
   },
+    {
+    id: "diploma",
+    degree: "Diploma Hardware and Network Servicing",
+    school: "MicroLink Information Technology", 
+    status: "Completed",
+    startDate: "", // TODO
+    endDate: "", // TODO
+  },
 
 ];
 

@@ -1,8 +1,10 @@
 import { projects } from "../content";
 import FeaturedProject from "./FeaturedProject";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
     const featured = projects.find((p) => p.featured);
+    const rest = projects.filter((p) => !p.featured);
 
     return (
     <section id="projects" className="px-6 md:px-12 max-w-5xl mx-auto py-20 border-t border-line">
@@ -19,7 +21,13 @@ function Projects() {
         </div>
       )}
 
-      {/* Grid of other projects goes here — next step */}
+      {rest.length > 0 && (
+        <div className="grid md:grid-cols-3 gap-6">
+            {rest.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+            ))}
+        </div>
+      )}
     </section>
   );
 }
