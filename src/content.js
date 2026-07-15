@@ -153,10 +153,10 @@ export const skills = {
 
 export const community = [
     {
-    id: "hackdis",
-    title: "Hackdis",
+    id: "hackaddis",
+    title: "HackAddis",
     description: "", // TODO: what the channel covers
-    url: "", // TODO: YouTube channel link
+    url: "https://www.youtube.com/hackaddis", // 
   },
   {
     id: "ibm-ai-builders",
