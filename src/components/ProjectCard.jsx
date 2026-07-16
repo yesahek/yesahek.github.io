@@ -1,8 +1,15 @@
 function ProjectCard({ project }) {
-    const { title, summary, technologies = [], githubUrl, demoUrl } = project;
+  const { title, image, summary, technologies = [], githubUrl, demoUrl } = project;
 
-    return (
-        <div className="border border-line rounded-lg p-6 flex flex-col h-full">
+  return (
+    <div className="border border-line rounded-lg p-6 flex flex-col h-full">
+      {image && (
+        <img
+          src={image}
+          alt={`${title} screenshot`}
+          className="rounded-md border border-line w-full h-40 object-cover mb-4"
+        />
+      )}
       <h3 className="text-xl font-display font-semibold text-ink mb-3">
         {title}
       </h3>

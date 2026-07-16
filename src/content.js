@@ -16,43 +16,27 @@ export const profile = {
 export const projects = [
   {
     id: "Keystone",
-    featured: false,
+    featured: true,
     title: "Keystone",
+    image: "images/Keystone.png", 
     summary: "A global AI innovation challenge sponsored by IBM SkillsBuild, where university students design and build real-world AI solutions using IBM technologies. As a participant, I am developing an AI-powered application while strengthening my skills in cloud architecture, Generative AI, and modern software engineering practices.", 
     problem: "", 
-    architectureDiagram: "", // TODO: path to an image, e.g. "/images/bedrock-architecture.png"
+    architectureDiagram: "", // TODO
+    awsServices: [],
     technologies: [  "IBM Bob", "Generative AI", "RAG", "AWS","Node.js", "GitHub"],
-    screenshots: [], // TODO
+    screenshots: ["images/Keystone.png", "images/Keystone_3.png"], // TODO
     githubUrl: "https://github.com/yesahek/Keystone", // TODO
-    demoUrl: "", // later
-},
-    {
-    id: "bedrock-rag-chatbot",
-    featured: true,
-    title: "Amazon Bedrock RAG Chatbot",
-    summary: "A cloud-native Retrieval-Augmented Generation (RAG) chatbot built on AWS using a fully serverless architecture. The application combines Amazon Bedrock foundation models with AWS serverless services to deliver secure, scalable, and context-aware AI conversations.", 
-    problem: "Large Language Models can generate inaccurate or outdated responses when they rely only on their pre-trained knowledge. This project addresses that limitation by implementing Retrieval-Augmented Generation (RAG), enabling the chatbot to retrieve relevant information from a knowledge base before generating responses. The solution demonstrates how AWS serverless services and Amazon Bedrock can be combined to build reliable, scalable, and cost-efficient AI applications.", 
-    architectureDiagram: "", // TODO: path to an image, e.g. "/images/bedrock-architecture.png"
-    awsServices: ["Amazon Bedrock",
-    "Amazon API Gateway",
-    "AWS Lambda",
-    "Amazon DynamoDB",
-    "Amazon Cognito",
-    "Amazon CloudWatch",
-    "IAM"], 
-    technologies: [  "TypeScript", "Node.js", "AWS SDK v3", "REST API", "RAG", "LLMs", "GitHub Actions", "Docker"],
-    screenshots: [], // TODO
-    githubUrl: "https://github.com/yesahek/bedrock-rag-chatbot", // TODO
     demoUrl: "", // later
 },
 {
     id: "education-supplementary-app",
     featured: false,
     title: "Education Supplementary App",
+    image: "images/ESA_2.png",
     summary: "Developed as my B.Sc. Computer Science capstone project, the Education Supplementary App (ESA) is a Flutter and Firebase-powered mobile application that provides students with convenient access to learning resources through a secure, cloud-based platform. The project demonstrates cross-platform mobile development, cloud integration, and user-centered application design.", 
     problem: "Students often struggle to access and organize supplementary learning materials because resources are scattered across multiple platforms and are not always easily available when needed. The Education Supplementary App (ESA) was developed to provide a centralized mobile platform where students can access educational resources conveniently and improve their learning experience.", 
     technologies: ["Flutter", "Firebase"],
-    screenshots: ["https://drive.google.com/file/d/1PmbpOel36RpwJqDLyGmPyvS8TT1Z47sZ/view?usp=sharing","https://drive.google.com/file/d/1yx-04Cwi9DmlRHd_6AoAPqvZYWuK249D/view?usp=sharing","https://drive.google.com/file/d/1r3LkuK2TqYlZCF3FYKvy4wJPe9fin0_9/view?usp=sharing"],
+    screenshots: ["images/ESA_1.png"],
     githubUrl: "https://github.com/yesahek/ESA_Project", 
     demoUrl: "",
   },
@@ -79,6 +63,19 @@ export const projects = [
     demoUrl: "",
   },
   {
+    id: "bedrock-rag-chatbot",
+    featured: false,
+    title: "Amazon Bedrock RAG Chatbot",
+    summary: "A cloud-native Retrieval-Augmented Generation (RAG) chatbot built on AWS using a fully serverless architecture. The application combines Amazon Bedrock foundation models with AWS serverless services to deliver secure, scalable, and context-aware AI conversations.", 
+    problem: "Large Language Models can generate inaccurate or outdated responses when they rely only on their pre-trained knowledge. This project addresses that limitation by implementing Retrieval-Augmented Generation (RAG), enabling the chatbot to retrieve relevant information from a knowledge base before generating responses. The solution demonstrates how AWS serverless services and Amazon Bedrock can be combined to build reliable, scalable, and cost-efficient AI applications.", 
+    architectureDiagram: "", // TODO: path to an image, e.g. "/images/bedrock-architecture.png"
+    awsServices: ["Amazon Bedrock","Amazon API Gateway", "AWS Lambda","Amazon DynamoDB", "Amazon Cognito", "Amazon CloudWatch", "IAM"], 
+    technologies: [  "TypeScript", "Node.js", "AWS SDK v3", "REST API", "RAG", "LLMs", "GitHub Actions", "Docker"],
+    screenshots: [], // TODO
+    githubUrl: "https://github.com/yesahek/bedrock-rag-chatbot", // TODO
+    demoUrl: "", // later
+},
+  {
     id: "malware-detection-system",
     featured: false,
     title: "Malware Detection System",
@@ -94,10 +91,11 @@ export const projects = [
     id: "scholarship-recommendation-platform",
     featured: false,
     title: "Scholarship Recommendation Platform",
+    images: "images/Scholarship.png",
     summary: "End-to-end recommendation system matching students to scholarships using TF-IDF vectorization and cosine similarity, deployed as an interactive Streamlit app.",
     problem: "Helping students find scholarships that match their academic profile, field of study, and eligibility criteria.",
     technologies: ["Python", "Scikit-learn", "Streamlit", "Pandas"],
-    screenshots: [],
+    screenshots: ["images/Scholarship.png"],
     githubUrl: "https://github.com/yesahek/Scholarship-Recommendation-Platform",
     demoUrl: "",
   },
