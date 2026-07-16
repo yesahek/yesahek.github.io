@@ -55,17 +55,19 @@ export const projects = [
     id: "donation-platform",
     featured: false,
     title: "Donation Platform",
-    summary: "Contributed to the development of a website and mobile donation platform for the Gergesenon Center for Support and Rehabilitation of People with Mental Disorder. The platform was designed to support fundraising efforts, increase public engagement, and simplify the donation process.",
+    summary: "Contributed to the development of a website and mobile donation platform. The platform was designed to support fundraising efforts, increase public engagement, and simplify the donation process.",
     problem: "",
     technologies: ["Website", "Flutter", "Firebase"],
     screenshots: [],
     githubUrl: "", // TODO
     demoUrl: "",
+    note: "Codebase is proprietary the Organization and cannot be shared publicly.",
   },
   {
     id: "bedrock-rag-chatbot",
     featured: false,
     title: "Amazon Bedrock RAG Chatbot",
+    image: "images/Rag-Chatbot.jpg",
     summary: "A cloud-native Retrieval-Augmented Generation (RAG) chatbot built on AWS using a fully serverless architecture. The application combines Amazon Bedrock foundation models with AWS serverless services to deliver secure, scalable, and context-aware AI conversations.", 
     problem: "Large Language Models can generate inaccurate or outdated responses when they rely only on their pre-trained knowledge. This project addresses that limitation by implementing Retrieval-Augmented Generation (RAG), enabling the chatbot to retrieve relevant information from a knowledge base before generating responses. The solution demonstrates how AWS serverless services and Amazon Bedrock can be combined to build reliable, scalable, and cost-efficient AI applications.", 
     architectureDiagram: "", // TODO: path to an image, e.g. "/images/bedrock-architecture.png"
@@ -91,7 +93,7 @@ export const projects = [
     id: "scholarship-recommendation-platform",
     featured: false,
     title: "Scholarship Recommendation Platform",
-    images: "images/Scholarship.png",
+    image: "images/Scholarship.png",
     summary: "End-to-end recommendation system matching students to scholarships using TF-IDF vectorization and cosine similarity, deployed as an interactive Streamlit app.",
     problem: "Helping students find scholarships that match their academic profile, field of study, and eligibility criteria.",
     technologies: ["Python", "Scikit-learn", "Streamlit", "Pandas"],
@@ -104,29 +106,29 @@ export const projects = [
 export const experience = [
     {
     id: "afroibex",
-    role: "", // TODO: your actual title
+    role: "Mobile Application Developer",
     org: "Afroibex",
     type: "Internship",
-    startDate: "", // TODO
-    endDate: "", // TODO
-    summary: "", // TODO: what you did, what you learned/shipped
+    startDate: "May 2024",
+    endDate: "Jan 2025", 
+    summary: "Contributed to the development of cross-platform mobile applications using Flutter and Firebase in a collaborative development environment. Implemented user interface components, integrated Firebase Authentication and Cloud Firestore, participated in debugging and feature development, and used Git/GitHub for version control and team collaboration. The internship strengthened my experience in mobile application development, cloud-backed services, and agile software development practices.",
   },
   {
     id: "gergesenon",
     role: "Volunteer",
     org: "Gergesenon Center",
     type: "Volunteer",
-    startDate: "", // TODO
-    endDate: "", // TODO
-    summary: "", // TODO
+    startDate: "Oct 2024",
+    endDate: "May 2025",
+    summary: "Volunteered as a technical contributor, developing the organization's website and a Flutter-based mobile donation application using Firebase and Cloud Firestore. ",
   },
   {
     id: "self-employed",
     role: "Founder / Business Owner",
     org: "Retail Business",
     type: "Self-employed",
-    startDate: "", // TODO
-    endDate: "", // TODO, or "Present"
+    startDate: "Dec 2021",
+    endDate: "Present",
     summary: "Founded and managed a retail business specializing in household and office furniture accessories. Oversaw daily operations, inventory management, customer service, and financial record keeping. Designed and developed a Flutter and Firebase-based inventory management application to digitize stock tracking and automate monthly VAT reporting, improving operational efficiency.", 
   },
 ];
@@ -137,24 +139,24 @@ export const education = [
     degree: "M.Sc. in Software Engineering",
     school: "Quantic School of Technology and Business",
     status: "In Progress",
-    startDate: "", // TODO
-    endDate: "", // TODO, expected
+    startDate: "Sep 2025",
+    endDate: "Expected Nov 2026", 
   },
   {
     id: "bsc",
     degree: "B.Sc. in Computer Science",
     school: "MicroLink Information Technology", 
     status: "Completed",
-    startDate: "", // TODO
-    endDate: "", // TODO
+    startDate: "Oct 2018",
+    endDate: "Aug 2023",
   },
     {
     id: "diploma",
     degree: "Diploma Hardware and Network Servicing",
     school: "MicroLink Information Technology", 
     status: "Completed",
-    startDate: "", // TODO
-    endDate: "", // TODO
+    startDate: "Nov 2015",
+    endDate: "Sep 2018",
   },
 
 ];
